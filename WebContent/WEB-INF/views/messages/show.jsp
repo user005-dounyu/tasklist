@@ -6,8 +6,8 @@
 
         <h2>id : ${message.id} のタスクの詳細ページ</h2>
 
-        <p>タスク：<c:out value="${message.title}" /></p>
-        <p>内容：<c:out value="${message.content}" /></p>
+        <p>id：<c:out value="${message.title}" /></p>
+        <p>content：<c:out value="${message.content}" /></p>
         <p>作成日時：<fmt:formatDate value="${message.created_at}" pattern="yyyy-MM-dd HH:mm:ss" /></p>
         <p>更新日時：<fmt:formatDate value="${message.updated_at}" pattern="yyyy-MM-dd HH:mm:ss" /></p>
 
